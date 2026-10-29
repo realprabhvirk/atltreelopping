@@ -294,8 +294,7 @@ main:focus-visible { outline: 3px solid var(--ember-deep); outline-offset: -3px;
   }
   .site-nav__list { flex-direction: row; gap: 12px; }
   .site-nav__list a { font-size: 1.5rem; }
-  .text-size { margin: 0; }
-  .text-size__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .text-size { display: none; }
   .site-header__call { order: 3; }
 }
 
