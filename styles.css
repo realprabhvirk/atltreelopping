@@ -162,8 +162,8 @@ main:focus-visible { outline: 3px solid var(--ember-deep); outline-offset: -3px;
   gap: 12px 1rem;
   padding-block: 0.5rem;
 }
-.site-header__logo { margin-right: auto; display: block; }
-.site-header__logo img { width: auto; height: 60px; }
+.site-header__logo { display: block; flex: 0 1 auto; min-width: 0; width: clamp(120px, 46vw, 174px); margin-right: auto; }
+.site-header__logo img { width: 100%; height: auto; }
 .site-header__call { display: none; }
 
 .nav-toggle {
@@ -182,7 +182,9 @@ main:focus-visible { outline: 3px solid var(--ember-deep); outline-offset: -3px;
   font-weight: 800;
   cursor: pointer;
 }
-.js .nav-toggle { display: inline-flex; }
+.js .nav-toggle { display: inline-flex; flex: none; padding-inline: 1rem; }
+.js .site-header__inner { flex-wrap: nowrap; }
+.site-header__call { white-space: nowrap; }
 
 .site-nav { flex-basis: 100%; padding-bottom: 1rem; }
 .site-nav__top, .site-nav__home, .site-nav__calls { display: none; }
@@ -217,8 +219,8 @@ main:focus-visible { outline: 3px solid var(--ember-deep); outline-offset: -3px;
 .text-size button[aria-pressed="true"] { background: var(--canopy); color: var(--white); }
 
 @media (min-width: 768px) {
-  .site-header__logo img { height: 72px; }
-  .site-header__call { display: inline-flex; }
+  .site-header__logo { width: 209px; }
+  .site-header__call { display: inline-flex; flex: none; }
 }
 
 /* Mobile and tablet: the menu is a full-screen overlay (only when JS is running) */
