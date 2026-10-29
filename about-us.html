@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Our Story, Family Tree Care Since 1985 | ATL Tree Lopping</title>
-  <meta name="description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. Ali's Tree Lopping became ATL, a family crew caring for Logan's trees ever since.">
+  <meta name="description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. ATL Tree Lopping has cared for trees in Slacks Creek, Springwood and Logan ever since.">
   <!-- BASE_URL: https://atl-treelopping.odoo.com (canonical, og:url, og:image, twitter:image, sitemap.xml, robots.txt and JSON-LD all use it. Swap in one pass if the domain changes.) -->
   <link rel="canonical" href="https://atl-treelopping.odoo.com/about-us">
   <meta name="theme-color" content="#2c6414">
@@ -12,7 +12,7 @@
   <meta property="og:site_name" content="ATL Tree Lopping">
   <meta property="og:locale" content="en_AU">
   <meta property="og:title" content="Our Story, Family Tree Care Since 1985 | ATL Tree Lopping">
-  <meta property="og:description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. Ali's Tree Lopping became ATL, a family crew caring for Logan's trees ever since.">
+  <meta property="og:description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. ATL Tree Lopping has cared for trees in Slacks Creek, Springwood and Logan ever since.">
   <meta property="og:url" content="https://atl-treelopping.odoo.com/about-us">
   <meta property="og:image" content="https://atl-treelopping.odoo.com/images/og-atl-tree-lopping-logo.jpg">
   <meta property="og:image:width" content="1200">
@@ -20,7 +20,7 @@
   <meta property="og:image:alt" content="ATL Tree Lopping, Tree Service logo">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Our Story, Family Tree Care Since 1985 | ATL Tree Lopping">
-  <meta name="twitter:description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. Ali's Tree Lopping became ATL, a family crew caring for Logan's trees ever since.">
+  <meta name="twitter:description" content="In 1985 Ali arrived from a Fiji family of tree workers with a chainsaw. ATL Tree Lopping has cared for trees in Slacks Creek, Springwood and Logan ever since.">
   <meta name="twitter:image" content="https://atl-treelopping.odoo.com/images/og-atl-tree-lopping-logo.jpg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
@@ -36,13 +36,21 @@
   <header class="site-header">
     <div class="container site-header__inner">
       <a class="site-header__logo" href="/">
-        <img src="/images/logo.png" alt="ATL Tree Lopping, Tree Service. Home" width="1024" height="452">
+        <picture>
+          <source srcset="/images/logo-transparent.webp" type="image/webp">
+          <img src="/images/logo-transparent.png" alt="ATL Tree Lopping, Tree Service. Home" width="640" height="220" loading="lazy">
+        </picture>
       </a>
-      <a class="btn btn--ember site-header__call" href="tel:+61411309659">Call 0411 309 659</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <a class="btn btn--ember site-header__call" href="tel:+61411309659"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call 0411 309 659</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg><span>Menu</span></button>
       <div class="site-nav" id="site-nav">
+        <div class="site-nav__top">
+          <span class="site-nav__heading">Menu</span>
+          <button class="site-nav__close" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg><span>Close</span></button>
+        </div>
         <nav aria-label="Main">
           <ul class="site-nav__list">
+          <li class="site-nav__home"><a href="/">Home</a></li>
           <li><a href="/our-services">Services</a></li>
           <li><a href="/about-us" aria-current="page">About</a></li>
           <li><a href="/contactus">Contact</a></li>
@@ -54,6 +62,10 @@
           <button type="button" data-text-size="large" aria-label="Large text" aria-pressed="false">A+</button>
           <button type="button" data-text-size="xlarge" aria-label="Extra large text" aria-pressed="false">A++</button>
         </div>
+        <div class="site-nav__calls">
+          <a class="btn btn--ember" href="tel:+61411309659"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call 0411 309 659</a>
+          <a class="btn btn--white" href="tel:+61732081568"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call (07) 3208 1568</a>
+        </div>
       </div>
     </div>
   </header>
@@ -64,7 +76,7 @@
         <div>
           <p class="eyebrow">About us</p>
           <h1 id="page-title">A Story That Begins in 1985</h1>
-          <p class="page-intro__lead">We are a family that has lived and breathed tree care since 1985. This is how it started.</p>
+          <p class="page-intro__lead">We are a family that has lived and breathed tree care since 1985, and we have been cutting trees in Slacks Creek, Springwood and Logan for most of that time. This is how it started.</p>
         </div>
         <div class="intro-media">
           <div class="shield-frame shield-frame--intro">
@@ -88,8 +100,8 @@
         <p>The way we work comes from the islands. Show up, get stuck in, and get it done. That can-do spirit is behind every job, whether it is one branch or a whole yard of trees.</p>
         <p>We arrive on time, fully equipped, and ready to restore your outdoor space. When we leave, the area is tidy.</p>
 
-        <h2>Looking after Logan</h2>
-        <p>Logan is home. We are committed to sustainable practices and to protecting the local environment, and to a greener future for the community we work in.</p>
+        <h2>Looking after Slacks Creek, Springwood and Logan</h2>
+        <p>This is home. We are committed to sustainable practices and to protecting the local environment, and to a greener future for the community we work in.</p>
         <p>Trees we take down are chipped and mulched on-site, and our firewood is sustainably sourced hardwood.</p>
       </div>
     </section>
@@ -114,12 +126,12 @@
       <div class="container final-call__grid">
         <div class="final-call__text">
           <h2 id="about-final-call-intro">Got a tree that needs to go?</h2>
-          <p>Call us, we'll come out and quote it free. Then we drop the tree, chip the branches and leave the yard tidy. Same family crew, same way, since 1985.</p>
+          <p>Call us, we'll come out anywhere in Slacks Creek, Springwood and Logan and quote it free. Then we drop the tree, chip the branches and leave the yard tidy. Same family crew, same way, since 1985.</p>
         </div>
         <div class="call-block" role="region" aria-labelledby="about-final-call">
       <h3 class="call-block__title" id="about-final-call">Call for a free quote</h3>
-      <a class="call-link" href="tel:+61411309659"><span class="call-link__label">Call mobile</span> <span class="call-link__number">0411 309 659</span></a>
-      <a class="call-link" href="tel:+61732081568"><span class="call-link__label">Call landline</span> <span class="call-link__number">(07) 3208 1568</span></a>
+      <a class="call-link" href="tel:+61411309659"><span class="call-link__label"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call mobile</span> <span class="call-link__number">0411 309 659</span></a>
+      <a class="call-link" href="tel:+61732081568"><span class="call-link__label"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call landline</span> <span class="call-link__number">(07) 3208 1568</span></a>
       <p class="call-block__email">Prefer to write? <a href="mailto:atltreelopping@icloud.com?subject=Free%20quote%20request">Email for a free quote</a></p>
       <p class="call-block__note">Free, no-obligation quotes. Our team is fully equipped and ready to come to you.</p>
     </div>
@@ -131,9 +143,12 @@
     <div class="container site-footer__grid">
       <div class="site-footer__brand">
         <a class="site-footer__logo" href="/">
-          <img src="/images/logo.png" alt="ATL Tree Lopping, Tree Service. Home" width="1024" height="452" loading="lazy">
+          <picture>
+          <source srcset="/images/logo-transparent.webp" type="image/webp">
+          <img src="/images/logo-transparent.png" alt="ATL Tree Lopping, Tree Service. Home" width="640" height="220" loading="lazy">
+        </picture>
         </a>
-        <p>Family-run tree lopping and tree removal in Logan since 1985. Started as Ali's Tree Lopping, still the same family crew.</p>
+        <p>Family-run tree lopping and tree removal in Slacks Creek, Springwood and Logan since 1985. Started as Ali's Tree Lopping, still the same family crew.</p>
       </div>
       <div>
         <h2 class="site-footer__title">Get in touch</h2>
@@ -155,12 +170,12 @@
       </nav>
     </div>
     <div class="container site-footer__base">
-      <p>&copy; 2026 ATL Tree Lopping. Free, no-obligation quotes across the entire Logan area.</p>
+      <p>&copy; 2026 ATL Tree Lopping. Free, no-obligation quotes in Slacks Creek, Springwood and across the entire Logan area.</p>
     </div>
   </footer>
 
   <div class="call-bar" data-call-bar>
-    <a class="btn btn--ember call-bar__btn" href="tel:+61411309659">Call 0411 309 659</a>
+    <a class="btn btn--ember call-bar__btn" href="tel:+61411309659"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call 0411 309 659</a>
   </div>
 </body>
 </html>

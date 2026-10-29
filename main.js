@@ -72,35 +72,78 @@
     }
   }
 
+  // Below 1180px the menu is a full-screen dialog: close button, Escape, focus trap, no page scroll behind it.
   function initNav() {
     var toggle = document.querySelector(".nav-toggle");
     var nav = document.getElementById("site-nav");
-    if (!toggle || !nav) return;
+    var closeBtn = nav && nav.querySelector(".site-nav__close");
+    if (!toggle || !nav || !closeBtn) return;
+    var desktop = window.matchMedia("(min-width: 1180px)");
 
     function isOpen() {
       return toggle.getAttribute("aria-expanded") === "true";
     }
 
+    function focusable() {
+      var all = nav.querySelectorAll("a[href], button");
+      return Array.prototype.filter.call(all, function (el) {
+        return el.offsetParent !== null;
+      });
+    }
+
     function setOpen(open, returnFocus) {
       toggle.setAttribute("aria-expanded", String(open));
-      toggle.textContent = open ? "Close menu" : "Menu";
       nav.classList.toggle("is-open", open);
-      if (!open && returnFocus) toggle.focus();
+      root.classList.toggle("nav-open", open);
+      if (open) {
+        nav.setAttribute("role", "dialog");
+        nav.setAttribute("aria-modal", "true");
+        nav.setAttribute("aria-label", "Menu");
+        closeBtn.focus();
+      } else {
+        nav.removeAttribute("role");
+        nav.removeAttribute("aria-modal");
+        nav.removeAttribute("aria-label");
+        if (returnFocus) toggle.focus();
+      }
     }
 
     toggle.addEventListener("click", function () {
-      setOpen(!isOpen(), false);
+      setOpen(true, false);
+    });
+
+    closeBtn.addEventListener("click", function () {
+      setOpen(false, true);
     });
 
     document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape" && isOpen()) setOpen(false, true);
-    });
-
-    document.addEventListener("click", function (event) {
-      if (isOpen() && !nav.contains(event.target) && !toggle.contains(event.target)) {
-        setOpen(false, false);
+      if (!isOpen()) return;
+      if (event.key === "Escape") {
+        setOpen(false, true);
+        return;
+      }
+      if (event.key !== "Tab") return;
+      var items = focusable();
+      if (!items.length) return;
+      var first = items[0];
+      var last = items[items.length - 1];
+      if (!nav.contains(document.activeElement)) {
+        event.preventDefault();
+        first.focus();
+      } else if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
       }
     });
+
+    function onResize() {
+      if (desktop.matches && isOpen()) setOpen(false, false);
+    }
+    if (desktop.addEventListener) desktop.addEventListener("change", onResize);
+    else if (desktop.addListener) desktop.addListener(onResize);
   }
 
   function initSmoothScroll() {

@@ -127,15 +127,15 @@
       "id": "logo-white",
       "source_url": "https://atl-treelopping.odoo.com/web/image/493-cf0c9eba/small%20white%20logo%20atl.webp",
       "shows": "The same full-colour logo on a near-white background, not a white variant.",
-      "status": "skipped",
-      "why": "Unusable on a dark background. Footer places logo.png inside a white rounded panel instead, as the brief's fallback says. No logo-white.webp is shipped."
+      "status": "skipped (replaced by logo-transparent)",
+      "why": "The old \"white logo\" is the colour logo on a near-white background and is unusable on dark. Replaced by images/logo-transparent.png and .webp, made by removing the near-white background from logo.png."
     },
     {
       "id": "logo",
       "file": "images/logo.png",
       "alt": "ATL Tree Lopping, Tree Service",
       "status": "used as supplied, untouched",
-      "notes": "Favicons (favicon-32.png, favicon-192.png, apple-touch-icon.png) are a straight crop of the shield from this file. images/og-atl-tree-lopping-logo.jpg is this logo centred on a white 1200x630 canvas for social sharing."
+      "notes": "Favicons (favicon-32.png, favicon-192.png, apple-touch-icon.png) are a straight crop of the shield from this file. images/og-atl-tree-lopping-logo.jpg is this logo centred on a white 1200x630 canvas for social sharing. images/logo-transparent.png and .webp are logo.png with the near-white background removed and the empty margin cropped (640x220). Used in the header and footer."
     }
   ]
 }
