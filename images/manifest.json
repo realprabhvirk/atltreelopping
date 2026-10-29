@@ -1,0 +1,141 @@
+{
+  "generated": "2026-10-29",
+  "note": "Every photo below is stock from the old Odoo site. None show ATL's real crew or jobs. Swap the named files for real job photos when Ali supplies them (keep the same filenames and the pages need no edits).",
+  "images": [
+    {
+      "id": 1,
+      "source_url": "https://atl-treelopping.odoo.com/unsplash/Dn_KGNk2IoY/448/tree%20cutting.jpg",
+      "licence": "Unsplash (photo ID Dn_KGNk2IoY). Hi-res download attempt returned 401, kept the Odoo copy.",
+      "shows": "Arborist in a green helmet and harness, roped in up a tall tree, cutting with a chainsaw.",
+      "new_name": "arborist-climbing-tree-with-chainsaw.webp (+ .jpg fallback), 690x1138",
+      "alt": "Arborist in a safety helmet roped into a tall tree, cutting a branch with a chainsaw",
+      "status": "used",
+      "where": "Home hero, shield crop",
+      "why": "Tall portrait, the best fit for the shield frame and the clearest tree work image on the site."
+    },
+    {
+      "id": 2,
+      "source_url": "https://atl-treelopping.odoo.com/unsplash/5vKQOaAL3IQ/444/tree%20cutting.jpg",
+      "licence": "Unsplash (photo ID 5vKQOaAL3IQ). Hi-res download attempt returned 401, kept the Odoo copy.",
+      "shows": "Worker in helmet, face shield and earmuffs cutting fallen timber with a chainsaw in bushland.",
+      "new_name": "tree-worker-with-chainsaw-in-bush.webp (+ .jpg fallback), 720x404",
+      "alt": "Tree worker in a helmet and face shield cutting fallen timber with a chainsaw in the bush",
+      "status": "used",
+      "where": "Home story section, small shield crop",
+      "why": "Low resolution, so only used at card size inside the shield crop as the brief allows."
+    },
+    {
+      "id": 3,
+      "source_url": "https://atl-treelopping.odoo.com/unsplash/ChgvIm7GtzU/445/tree%20chopping.jpg",
+      "licence": "Unsplash (photo ID ChgvIm7GtzU).",
+      "shows": "Arborist in an orange hi-vis jacket up a heavily lopped street tree beside brick houses.",
+      "new_name": "arborist-lopping-branches-beside-house.webp (+ .jpg fallback), 690x457",
+      "alt": "Arborist in an orange safety jacket standing in a lopped tree beside a row of brick houses",
+      "status": "used",
+      "where": "About page story image, shield crop",
+      "why": "Neutral working-tree image for the About page in place of the AI-generated portrait (#12)."
+    },
+    {
+      "id": 4,
+      "source_url": "https://atl-treelopping.odoo.com/unsplash/9wZCTO4SiMU/449/tree%20cutting.jpg",
+      "licence": "Unsplash (photo ID 9wZCTO4SiMU).",
+      "shows": "Close-up of gloved hands cutting a thin tree trunk with an orange chainsaw, sawdust flying.",
+      "new_name": "chainsaw-cutting-small-tree-trunk.webp (+ .jpg fallback), 690x449",
+      "alt": "Gloved hands cutting through a small tree trunk with a chainsaw, sawdust flying",
+      "status": "used",
+      "where": "Services page intro, shield crop",
+      "why": "General cutting shot, fits the all-services intro rather than one service."
+    },
+    {
+      "id": 5,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/471-dbac90f6/AdobeStock_210495692.webp",
+      "duplicate_url": "https://atl-treelopping.odoo.com/web/image/475-5225103c/AdobeStock_210495692.webp",
+      "licence": "Adobe Stock ID 210495692. Licence must be confirmed with ATL (open item 1).",
+      "shows": "Large felled tree trunk resting beside a house, worker in red flannel and orange helmet, wood chipper in the foreground.",
+      "new_name": "tree-felled-beside-house-with-chipper.webp (+ .jpg fallback), 962x641",
+      "alt": "Large tree trunk felled beside a house, with a worker in an orange helmet and a wood chipper nearby",
+      "status": "used",
+      "where": "Tree Removal (home card and services page)",
+      "why": "Falling or felled tree matches Tree Removal."
+    },
+    {
+      "id": 6,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/470-5aac1f1d/AdobeStock_1564623098.webp",
+      "duplicate_url": "https://atl-treelopping.odoo.com/web/image/474-ef596af1/AdobeStock_1564623098.webp",
+      "licence": "Adobe Stock ID 1564623098. Licence must be confirmed with ATL (open item 1). May be AI-generated stock, check before launch.",
+      "shows": "Arborist in an orange helmet, safety glasses and hi-vis vest, harnessed up a tree with a pruning saw.",
+      "new_name": "arborist-pruning-branches-up-tree.webp (+ .jpg fallback), 962x539",
+      "alt": "Arborist in an orange helmet and safety glasses harnessed up a tree, pruning branches",
+      "status": "used",
+      "where": "Tree Lopping (home card and services page)",
+      "why": "Someone aloft pruning branches matches Tree Lopping."
+    },
+    {
+      "id": 7,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/472-a9976598/AdobeStock_1613125144.webp",
+      "duplicate_url": "https://atl-treelopping.odoo.com/web/image/476-37136c11/AdobeStock_1613125144.webp",
+      "licence": "Adobe Stock ID 1613125144. Licence must be confirmed with ATL (open item 1).",
+      "shows": "Worker in orange chainsaw trousers levering a large cut stump in a backyard with sawdust around it.",
+      "new_name": "tree-stump-removal-in-backyard.webp (+ .jpg fallback), 962x655",
+      "alt": "Worker in orange safety gear levering out a large tree stump in a backyard",
+      "status": "used",
+      "where": "Stump Grinding & Removal (home card and services page)",
+      "why": "Shows a stump being removed, the closest match on the site for this service."
+    },
+    {
+      "id": 8,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/487-f7797be0/AdobeStock_595195179_Preview.webp",
+      "shows": "Gloved hands holding bark mulch.",
+      "status": "skipped",
+      "why": "Adobe Stock preview with a visible watermark down the left edge, and narrower than 1000px. Mulching uses a typographic card instead."
+    },
+    {
+      "id": 9,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/485-927420da/240_F_658850665_1z8ShU2u2DaNw0mr3yNfWxbS62rHQrAk.webp",
+      "shows": "Workers in hi-vis bagging rubbish.",
+      "status": "skipped",
+      "why": "Adobe Stock thumbnail, 429x240, narrower than 600px. Rubbish Removal uses a typographic card instead."
+    },
+    {
+      "id": 10,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/486-239effb2/240_F_928802520_ERZwrp9Y7EQTaB7dV7mgewVNBWkoiOy5.webp",
+      "shows": "Stack of split firewood.",
+      "status": "skipped",
+      "why": "Adobe Stock thumbnail, 360x240, narrower than 600px. Firewood uses a typographic card instead."
+    },
+    {
+      "id": 11,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/477-redirect/treecare.jpg",
+      "shows": "Man in a green polo pruning a small garden shrub with hand tools, chainsaw on the ground, 2007 point-and-shoot photo.",
+      "status": "skipped",
+      "why": "Shows shrub pruning, not tree work, so it fits no ATL service. Dated low quality, and a single man posed in a garden could be read as Ali."
+    },
+    {
+      "id": 12,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/491-a3f9b380/Gemini_Generated_Image_o59lkbo59lkbo59l.webp",
+      "shows": "AI-generated portrait of an older man in a flannel shirt holding rope beside a stump and firewood. Gemini sparkle mark in the corner.",
+      "status": "skipped",
+      "why": "AI-generated person. Must not be presented as Ali. Meet Ali block uses a typographic panel until a real photo is supplied (open item 2)."
+    },
+    {
+      "id": 13,
+      "source_url": "https://atl-treelopping.odoo.com/web/image/489-31bfae06/ACg8ocIlW1aqJhireopR2rrLgC6BruaqXwcHVtv_07pFkQ6Wv8sIkw%3Dw90-h90-p-rp-mo-ba3-br100",
+      "status": "skipped (not downloaded)",
+      "why": "Private Google reviewer avatar. Never used. Testimonial uses a plain initial circle."
+    },
+    {
+      "id": "logo-white",
+      "source_url": "https://atl-treelopping.odoo.com/web/image/493-cf0c9eba/small%20white%20logo%20atl.webp",
+      "shows": "The same full-colour logo on a near-white background, not a white variant.",
+      "status": "skipped",
+      "why": "Unusable on a dark background. Footer places logo.png inside a white rounded panel instead, as the brief's fallback says. No logo-white.webp is shipped."
+    },
+    {
+      "id": "logo",
+      "file": "images/logo.png",
+      "alt": "ATL Tree Lopping, Tree Service",
+      "status": "used as supplied, untouched",
+      "notes": "Favicons (favicon-32.png, favicon-192.png, apple-touch-icon.png) are a straight crop of the shield from this file. images/og-atl-tree-lopping-logo.jpg is this logo centred on a white 1200x630 canvas for social sharing."
+    }
+  ]
+}
